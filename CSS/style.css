@@ -1,0 +1,14 @@
+*{
+    font-family: 'Noto Sans';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+#map {
+    height: 100vh;  /* z. B. 500px Höhe */
+    width: 100vw;    /* volle Breite */
+}
