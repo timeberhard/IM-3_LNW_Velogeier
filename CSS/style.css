@@ -10,12 +10,12 @@ header{
 }
 
 #map {
-    height: 70vh;  /* z. B. 500px Höhe */
+    height: 90vh;  /* z. B. 500px Höhe */
     width: 100vw;    /* volle Breite */
 }
 
 #infobox {
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
     background-color: white;
     position: absolute;
@@ -23,9 +23,19 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
+    display: none;
+    border-radius: 25px 25px 0 0;
 }
 
 #bikeChart {
     width: 90%;
     height: 90%;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgba(41, 41, 41, 0.6);
 }

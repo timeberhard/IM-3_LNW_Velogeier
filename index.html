@@ -2,24 +2,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOOINZ Geier</title>
+    <title>Velogeier</title>
     <!--Normales CSS-->
     <link rel="stylesheet" href="css/style.css">
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=cancel" />
     <!--Leaflet Stylesheet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
-        <h1>Velos in Chur</h1>
+        <h1>Velogeier</h1>
     </header>
     <main>
         <div id="map"></div>
         <div id="infobox">
+            <button onclick="closeInfoBox()">
+                <span class="material-symbols-outlined">
+                   cancel
+                </span>
+            </button>
             <canvas id="bikeChart"></canvas>
         </div>
     </main>
