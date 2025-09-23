@@ -15,25 +15,17 @@ header{
 }
 
 #infobox {
-    height: 20vh;
+    height: 25vh;
     width: 100vw;
     background-color: white;
     position: absolute;
     bottom: 0;
-}
-
-#woche{
-    margin: 6% 2%;
-    height: 16vh;
-    width: 96vw;
     display: flex;
-    flex-direction: row;
-    gap: 5px;
     justify-content: center;
+    align-items: center;
 }
 
-.wochentag{
-    width: 10vw;
-    height: 10vh;
-    background-color: rgb(53, 53, 53);
+#bikeChart {
+    width: 90%;
+    height: 90%;
 }

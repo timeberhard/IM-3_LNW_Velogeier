@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--Leaflet Stylesheet-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -19,15 +20,7 @@
     <main>
         <div id="map"></div>
         <div id="infobox">
-            <div id="woche">
-                <div class="wochentag" id="w1"></div>
-                <div class="wochentag" id="w2"></div>
-                <div class="wochentag" id="w3"></div>
-                <div class="wochentag" id="w4"></div>
-                <div class="wochentag" id="w5"></div>
-                <div class="wochentag" id="w6"></div>
-                <div class="wochentag" id="w7"></div>
-            </div>
+            <canvas id="bikeChart"></canvas>
         </div>
     </main>
 
