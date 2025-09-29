@@ -1,6 +1,6 @@
-# IM-3_Mooinz-Checker
+# IM-3_LNW_Mooinz-Checker
 ---------------------------------------------
-Tim Eberhard
 Carlo Pierotto
+Tim Eberhard
 ---------------------------------------------
 Mit dieser Website siehst du, wo in Chur wie viele MOOINZ Velos sind und wie viele normalerweise dort sind.
