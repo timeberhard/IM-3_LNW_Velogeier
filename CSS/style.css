@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Header */
+
 header{
     text-align: center;
     height: 10vh;
@@ -39,3 +41,4 @@ header{
     right: 10px;
     color: rgba(41, 41, 41, 0.6);
 }
+
