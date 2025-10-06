@@ -56,7 +56,7 @@ fetch("JS/Beispiel.json")
     fetch("https://api.nextbike.net/maps/nextbike-live.json")
       .then(res => res.json())
       .then(data => {
-        ApiData = data.countries[126].cities[0].places.map(spot => ({
+        ApiData = data.countries[127].cities[0].places.map(spot => ({
             name: spot.name,
             lat: spot.lat,
             lng: spot.lng,
