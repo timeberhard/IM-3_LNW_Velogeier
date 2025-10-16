@@ -42,3 +42,13 @@ header{
     color: rgba(41, 41, 41, 0.6);
 }
 
+#hourlyContainer{
+    display:none; 
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    height:30vh; 
+    background:white; 
+    z-index:2000; 
+    border-radius:15px; 
+}

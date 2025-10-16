@@ -44,16 +44,16 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $wochentage = [1=>"Sonntag",2=>"Montag",3=>"Dienstag",4=>"Mittwoch",5=>"Donnerstag",6=>"Freitag",7=>"Samstag"];
 
 // Ergebnisarray vorbereiten
+$wochentage = [1=>"Sonntag",2=>"Montag",3=>"Dienstag",4=>"Mittwoch",5=>"Donnerstag",6=>"Freitag",7=>"Samstag"];
+
 $result = [];
-foreach ($wochentage as $num => $tag) {
+foreach (["Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag"] as $tag) {
     $result[$tag] = 0; // Standardwert
 }
 
 foreach ($rows as $row) {
-    $tagName = $wochentage[$row['wochentag']];
+    $tagName = $wochentage[$row['wochentag']]; // DAYOFWEEK → Name
     $result[$tagName] = round($row['durchschnitt'], 1);
 }
 
-// JSON ausgeben
-header('Content-Type: application/json');
 echo json_encode($result);
