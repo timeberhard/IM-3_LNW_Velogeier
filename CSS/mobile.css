@@ -3,6 +3,9 @@
 header{
     text-align: center;
     height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #map {
