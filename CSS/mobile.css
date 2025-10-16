@@ -1,9 +1,3 @@
-*{
-    font-family: 'Noto Sans';
-    margin: 0;
-    padding: 0;
-}
-
 /* Header */
 
 header{
@@ -12,8 +6,8 @@ header{
 }
 
 #map {
-    height: 90vh;  /* z. B. 500px Höhe */
-    width: 100vw;    /* volle Breite */
+    height: 90vh;
+    width: 100vw;
 }
 
 #infobox {
@@ -30,8 +24,8 @@ header{
     border-radius: 25px 25px 0 0;
 }
 
-#bikeChart {
-    width: 90%;
+canvas {
+    width: 80%;
     height: 90%;
 }
 
